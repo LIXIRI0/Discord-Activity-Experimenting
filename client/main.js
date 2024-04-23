@@ -1,4 +1,4 @@
-import { DiscordSDK } from "@discord/embedded-app-sdk";
+import { DiscordSDK } from "./@discord/embedded-app-sdk";
 import "./style.css";
 import rocketLogo from "/rocket.png";
 const sdk = new DiscordSDK(import.meta.env.VITE_DISCORD_CLIENT_ID);
